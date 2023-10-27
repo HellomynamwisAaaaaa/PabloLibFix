@@ -24,6 +24,9 @@ function library:Create(text)
 	MainFrame.Visible = not MainFrame.Visible
 	end
 	end)
+MainFrame.Active = true
+MainFrame.Selectable = true
+MainFrame.Draggable = true
 	local UICorner = Instance.new("UICorner")
 	local DropShadowHolder = Instance.new("Frame")
 	local DropShadow = Instance.new("ImageLabel")
